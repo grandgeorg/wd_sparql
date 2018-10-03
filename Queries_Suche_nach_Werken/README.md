@@ -11,3 +11,4 @@ WHERE
   wd:Q762 wdt:P800 ?item.
 }
 ```
+[auf WDQS ausprobieren ...](http://tinyurl.com/y8rw58wb)
