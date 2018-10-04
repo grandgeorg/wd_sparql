@@ -6,7 +6,7 @@ Welche SPARQL-Abfragen werden benötigt um nach bestimmten Kriterien Kunstwerke 
 
 Es sind verschiedene Ansätze möglich. Beginnen wir mit einem Beispiel aus dem [Wikidata-Workshop von Claudia Müller-Birn](https://github.com/clmb/wikidata_workshop/tree/master/SPARQL1_Statements).
 
-### Über die Eigenschaft Werke
+### Über die Eigenschaft Werke `P800`
 
 Künstlern können über die Eigenschaft Werke (notable work) Kunstwerke zugewiesen werden, deren Urheber sie sind.
 
@@ -24,7 +24,7 @@ WHERE
 
 Ergebnis (4.10.2018): 13 Werke
 
-### Über die Eigenschaft Urheber
+### Über die Eigenschaft Urheber `P170`
 
 Umgekehrt ist in aller Regel bei einem Kunstwerk ein Urheber angegeben. Fragt man von dieser Seite nach Werken Leonardo da Vincis, also:
 
